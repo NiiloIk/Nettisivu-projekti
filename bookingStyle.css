@@ -1,0 +1,50 @@
+.Info {
+    font-size: 1.4em;
+    box-sizing: border-box;
+}
+.Info .textalign{
+    font-size: 2em;
+}
+
+.Info {
+    padding: 0 50px;
+}
+.Info hr{
+    margin: 10px 0;
+}
+.Info .bookingbox {
+    position: relative;
+    left: 42%;
+}
+
+.space {
+    height: 20vh;
+}
+.about {
+    width: 70%;
+    margin: 0 0 0 50px;
+}
+
+@media (max-width: 750px) {
+    .Info {
+        font-size:medium;
+    }
+    .Info .textalign{
+        font-size: large;
+    }
+    .Info {
+        padding: 0;
+    }
+    .Info hr{
+        margin: 5px 0;
+    }
+    .Info .bookingbox {
+        position:static;
+        left: 0;
+    }
+    .about {
+        width: 100%;
+        margin: 0 0 0 5px;
+    }
+    
+}
